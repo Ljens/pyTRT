@@ -22,7 +22,11 @@
 
 **General Implementation**
 - TRT_class is the wrapper and API interface of the underlying models and fitting functions
-- 
+- A TRT_class object has all functions as methods
+- The object can be implemented with or without TRT data
+- The object stores data once it's implemented and can be serialised for persistence between sessions, e.g. with pickle
+
+
 
 
 
